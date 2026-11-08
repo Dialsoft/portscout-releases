@@ -1,9 +1,9 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "exe": "https://raw.githubusercontent.com/Dialsoft/portscout-releases/main/PortScout.exe",
-  "sha256": "ff2656931620b76c127ffb6a827eb736ba7dba29cfe3e25a1a315818d1937f0a",
-  "size": 508416,
+  "sha256": "3dc116f356f6b854bb7d459d1071d3628d42aff3426e5ea223df2c26371d4368",
+  "size": 560128,
   "published": "2026-11-08",
-  "notes": "Port Scout is now a home-appliance finder: Find Appliances lists likely appliances first, plus a ribbon toolbar, a Start Here guide, detailed tooltips and automatic updates.",
+  "notes": "Keeps your appliances safe while scanning: a health monitor checks the device before, during and after every scan, the health guard slows down or pauses if it struggles, plus a Traffic tab, Watch Only and Pause.",
   "page": "https://dialsoft.com/port-scout/"
 }

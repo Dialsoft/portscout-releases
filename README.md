@@ -28,6 +28,9 @@ Your fridge, washer, oven, thermostat, robot vacuum and smart plugs are all smal
 | **Encryption** | Whether each service uses TLS, and its certificate. |
 | **UPnP API calls** | Every UPnP service the appliance publishes, and each command it accepts with its inputs and outputs. |
 | **Extra checks** | Time (NTP), SNMP and mDNS, which a normal port scan can't see. |
+| **Health monitor** | Pings the appliance before, during and after the scan, with a live graph and a timeline of anything that went wrong. |
+| **Health guard** | Starts gently, slows down if the appliance struggles and pauses if it stops answering, so older appliances don't crash. |
+| **Traffic monitor** | Connections and data per second, and every announcement the appliance makes. **Watch Only** monitors without scanning. |
 
 ## Requirements
 
@@ -36,7 +39,7 @@ Your fridge, washer, oven, thermostat, robot vacuum and smart plugs are all smal
 
 ## Safe to use
 
-Port Scout only **looks**: it connects and reads, and never logs in, sends commands or changes anything on your appliances. Scan only your own devices, or networks you're responsible for.
+Port Scout only **looks**: it connects and reads, and never logs in, sends commands or changes anything on your appliances. Scanning does mean a lot of knocking, which can overwhelm an older appliance, so Port Scout watches the appliance's health throughout and backs off when it struggles (Speed **Auto** and **Health guard**, both on by default). For delicate appliances choose Speed **Gentle**. Scan only your own devices, or networks you're responsible for.
 
 ## Updates
 
