@@ -2,6 +2,22 @@
 
 Download the newest version at **https://dialsoft.com/port-scout/**. Port Scout updates itself; it asks before installing.
 
+## 1.5.0 (November 8, 2026)
+
+**One click, and you can see everything it's doing.**
+
+- **Find & Scan All**: finds every device on your network, then scans each likely or possible appliance **one after another**, gently, watching each one's health. Afterwards, **click any scanned device** to see its results. **Save All Reports** saves every device's report in one file. (**Find Only** lists the devices without scanning, like before.)
+- **Live views**:
+  - a **Status** column in the device list: *waiting (2 of 5)*, *scanning 42%, 3 open*, *done: 3 open (1 worth a look)*, *dropped out 2x*;
+  - a **Port Map** tab: all 65,535 ports as small squares that fill in as they're tested (grey closed, green open, red open and worth a look, blue = testing now). Hover for the ports in each square;
+  - a **Right Now** card: what it's doing, which device (2 of 5), ports per second, open ports and time left;
+  - an **Activity** tab: a time-stamped, plain-English diary of everything Port Scout does.
+- Devices appear in the list **the moment they answer**, while the search is still running.
+- The ribbon's groups (Find, Scan, Results, Report) are now **clearly boxed**, with a shaded caption.
+- **Fixed**: Copy Report and Save Report could fail in 1.4.0 (the program didn't start in the "single-threaded apartment" mode Windows needs for the clipboard and file windows).
+
+Technical: scanning stays multithreaded (Find checks 64 addresses at once; the port test runs up to *Max at once* connections, governed by the health guard; the health monitor, traffic sampler and SSDP/mDNS listeners run alongside). Find & Scan All runs devices sequentially on purpose. Each device's results are kept in memory (`DeviceRun`) so its row can show them again.
+
 ## 1.4.0 (November 8, 2026)
 
 **New look: the same as MAC Scout and the other Dialsoft tools.**

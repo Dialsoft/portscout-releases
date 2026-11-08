@@ -1,9 +1,9 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "exe": "https://raw.githubusercontent.com/Dialsoft/portscout-releases/main/PortScout.exe",
-  "sha256": "c40f3f5907adb0456b08257d6e5bdd4d815c98e16b75703452899029653d7e01",
-  "size": 1240576,
+  "sha256": "14756f7af0087d977ae85d327b803dd4ed75b81d4f4b6494c7479f28ef542b2e",
+  "size": 1273344,
   "published": "2026-11-08",
-  "notes": "New look: Port Scout now looks and works like MAC Scout and the other Dialsoft tools, with an Office-style ribbon, cards on the left, device icons and MAC Scout's share window.",
+  "notes": "Find & Scan All: one click finds every device and scans each appliance in turn. New live views: a Status column, a Port Map that fills in as it scans, a Right Now card (speed, time left) and a plain-English Activity log. Clearer ribbon groups. Fixes Copy/Save Report on 1.4.",
   "page": "https://dialsoft.com/port-scout/"
 }
