@@ -1,0 +1,9 @@
+{
+  "version": "1.2.0",
+  "exe": "https://raw.githubusercontent.com/Dialsoft/portscout-releases/main/PortScout.exe",
+  "sha256": "ff2656931620b76c127ffb6a827eb736ba7dba29cfe3e25a1a315818d1937f0a",
+  "size": 508416,
+  "published": "2026-11-08",
+  "notes": "Port Scout is now a home-appliance finder: Find Appliances lists likely appliances first, plus a ribbon toolbar, a Start Here guide, detailed tooltips and automatic updates.",
+  "page": "https://dialsoft.com/port-scout/"
+}
