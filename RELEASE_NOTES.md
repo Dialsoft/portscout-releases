@@ -2,6 +2,16 @@
 
 Download the newest version at **https://dialsoft.com/port-scout/**. Port Scout updates itself; it asks before installing.
 
+## 1.4.0 (November 8, 2026)
+
+**New look: the same as MAC Scout and the other Dialsoft tools.**
+
+- **Office-style ribbon** with icons: the blue **File** button, **Home** (Find, Scan, Results, Report) and **Help** tabs, the version label and a **Tutorial** button. Buttons grey out when they can't be used; **Pause** stays highlighted while paused.
+- **Cards on the left**: Target, Appliances found (a big counter), Device health (always visible), Speed (a list with notes) and What to check.
+- Device list with **icons** for each kind of device, flat result tabs, and MAC Scout's status bar with a green **Update available** link.
+- **Share Port Scout**: MAC Scout's share window (e-mail, Gmail, Outlook, Messenger, WhatsApp, text message, Teams, Facebook, LinkedIn). New **About** box.
+- **Crisp on high-resolution screens** (125-200% display scaling).
+
 ## 1.3.0 (November 8, 2026)
 
 **Keeps your appliances safe while scanning.** A full-speed scan crashed an older smart fridge (its music stuttered, then it restarted), so Port Scout now watches the device the whole time.
@@ -42,7 +52,7 @@ Download the newest version at **https://dialsoft.com/port-scout/**. Port Scout 
 
 ### Technical details
 
-- Written in **C#** for the **.NET Framework 4.8** (Windows Forms) and compiled into a single portable `PortScout.exe`. No installer, no admin rights.
+- Written in **C#** for the **.NET Framework 4.8** (Windows Forms) and compiled into a single portable `PortScout.exe`. No installer, no admin rights. Uses the Dialsoft shared look from MAC Scout (owner-drawn ribbon, cards, Microsoft Fluent UI icons, MIT).
 - Port checks use **asynchronous TCP connections**, hundreds at a time; the number at once and the wait time can be changed live, mid-scan.
 - Each open port is probed in order: does it greet you first (banner)? Is it a web server (HTTP)? Is it encrypted (TLS handshake, certificate read)?
 - UPnP: SSDP `M-SEARCH` (multicast and unicast) finds description XML files; each service's SCPD file is parsed for actions, arguments, data types and allowed values. Actions are never called.

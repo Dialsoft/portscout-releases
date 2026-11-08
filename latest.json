@@ -1,9 +1,9 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "exe": "https://raw.githubusercontent.com/Dialsoft/portscout-releases/main/PortScout.exe",
-  "sha256": "3dc116f356f6b854bb7d459d1071d3628d42aff3426e5ea223df2c26371d4368",
-  "size": 560128,
+  "sha256": "c40f3f5907adb0456b08257d6e5bdd4d815c98e16b75703452899029653d7e01",
+  "size": 1240576,
   "published": "2026-11-08",
-  "notes": "Keeps your appliances safe while scanning: a health monitor checks the device before, during and after every scan, the health guard slows down or pauses if it struggles, plus a Traffic tab, Watch Only and Pause.",
+  "notes": "New look: Port Scout now looks and works like MAC Scout and the other Dialsoft tools, with an Office-style ribbon, cards on the left, device icons and MAC Scout's share window.",
   "page": "https://dialsoft.com/port-scout/"
 }
