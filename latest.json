@@ -1,9 +1,9 @@
 {
-  "version": "1.5.1",
+  "version": "1.5.2",
   "exe": "https://raw.githubusercontent.com/Dialsoft/portscout-releases/main/PortScout.exe",
-  "sha256": "7e50274c45370b590e18a5387188371dda9f31ccafeb2c6190aca2c9ef991510",
-  "size": 1281024,
+  "sha256": "a7f52abb515aa2bb55dfec63e75d6c1281f874b6ff272327392c6239141b9b40",
+  "size": 1289216,
   "published": "2026-11-08",
-  "notes": "Much faster Find (the same method as MAC Scout: ARP, many addresses at once). New 'Network to search' drop-down; only this PC's own networks are searched. Click any column header to sort (IP addresses sort by number).",
+  "notes": "Notes: right-click a device (or press F2) to add your own note. Notes show in a new Note column and in the report, and stay with the device even if its IP address changes. The right-click menu can also scan the device and copy its IP or MAC address.",
   "page": "https://dialsoft.com/port-scout/"
 }

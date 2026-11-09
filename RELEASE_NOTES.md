@@ -2,6 +2,11 @@
 
 Download the newest version at **https://dialsoft.com/port-scout/**. Port Scout updates itself; it asks before installing.
 
+## 1.5.2 (November 8, 2026)
+
+- **Notes**: right-click a device (or press F2) and choose **Add note...** to write your own note, like "kitchen fridge". Notes show in the new **Note** column and in the report, and stay with the device even if its IP address changes (they're filed by MAC address, in `%AppData%\Dialsoft\Port Scout\notes.txt`).
+- The device list's right-click menu can also **scan** the device and **copy its IP or MAC address**.
+
 ## 1.5.1 (November 8, 2026)
 
 - **Much faster Find**, using the same method as MAC Scout: every address is checked with ARP on up to 128 dedicated threads at once, with no extra ping per address. Names and appliance hints are looked up while the search is still running. A home network now takes a few seconds.
