@@ -1,9 +1,9 @@
 {
-  "version": "1.5.0",
+  "version": "1.5.1",
   "exe": "https://raw.githubusercontent.com/Dialsoft/portscout-releases/main/PortScout.exe",
-  "sha256": "14756f7af0087d977ae85d327b803dd4ed75b81d4f4b6494c7479f28ef542b2e",
-  "size": 1273344,
+  "sha256": "7e50274c45370b590e18a5387188371dda9f31ccafeb2c6190aca2c9ef991510",
+  "size": 1281024,
   "published": "2026-11-08",
-  "notes": "Find & Scan All: one click finds every device and scans each appliance in turn. New live views: a Status column, a Port Map that fills in as it scans, a Right Now card (speed, time left) and a plain-English Activity log. Clearer ribbon groups. Fixes Copy/Save Report on 1.4.",
+  "notes": "Much faster Find (the same method as MAC Scout: ARP, many addresses at once). New 'Network to search' drop-down; only this PC's own networks are searched. Click any column header to sort (IP addresses sort by number).",
   "page": "https://dialsoft.com/port-scout/"
 }

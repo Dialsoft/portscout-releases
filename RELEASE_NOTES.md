@@ -2,6 +2,13 @@
 
 Download the newest version at **https://dialsoft.com/port-scout/**. Port Scout updates itself; it asks before installing.
 
+## 1.5.1 (November 8, 2026)
+
+- **Much faster Find**, using the same method as MAC Scout: every address is checked with ARP on up to 128 dedicated threads at once, with no extra ping per address. Names and appliance hints are looked up while the search is still running. A home network now takes a few seconds.
+- **Network to search** drop-down (like MAC Scout): pick which of this PC's networks to search, or *All my networks*. Port Scout no longer searches outside this PC's own networks (the *Also search other networks* box is gone).
+- **Sort any list** by clicking a column header (again to reverse). IP addresses sort by number, so .9 comes before .10; percentages and counts sort by value.
+- The device health check now runs on its own thread, so a busy scan can never delay noticing that the device stopped answering.
+
 ## 1.5.0 (November 8, 2026)
 
 **One click, and you can see everything it's doing.**
